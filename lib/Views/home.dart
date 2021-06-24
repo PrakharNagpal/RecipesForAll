@@ -1,5 +1,5 @@
 import 'dart:io';
-
+import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +12,16 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   TextEditingController textEditingController = new TextEditingController();
+
+  String applicationId = "935814b7";
+  String applicationKey = "1704f011c11acc7ba5bbb846c38c4e27";
+  getRecipes(String query) async {
+    String url =
+        "https://api.edamam.com/search?q=$query&app_id=935814b7&app_key=1704f011c11acc7ba5bbb846c38c4e27";
+    var response = await http.get(Uri.parse(url));
+    print("$response this is response");
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -79,8 +89,10 @@ class _HomeState extends State<Home> {
                         hintText: "Enter Incredients",
                         hintStyle: TextStyle(
                           fontSize: 18,
+                          color: Colors.white.withOpacity(0.5),
                         ),
                       ),
+                      style: TextStyle(fontSize: 18, color: Colors.white),
                     ),
                   ),
                   SizedBox(
@@ -89,6 +101,7 @@ class _HomeState extends State<Home> {
                   InkWell(
                     onTap: () {
                       if (textEditingController.text.isNotEmpty) {
+                        getRecipes(textEditingController.text);
                         print("Just do it");
                       } else {
                         print("Just don't do it");
