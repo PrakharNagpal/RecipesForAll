@@ -1,7 +1,9 @@
+import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:recipes/models/recipe_model.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -12,14 +14,23 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   TextEditingController textEditingController = new TextEditingController();
-
+  List<RecipeModel> recipes = <RecipeModel>[];
   String applicationId = "935814b7";
   String applicationKey = "1704f011c11acc7ba5bbb846c38c4e27";
   getRecipes(String query) async {
     String url =
         "https://api.edamam.com/search?q=$query&app_id=935814b7&app_key=1704f011c11acc7ba5bbb846c38c4e27";
     var response = await http.get(Uri.parse(url));
-    print("$response this is response");
+    Map<String, dynamic> jsonData = jsonDecode(response.body);
+    jsonData["hits"].forEach((element) {
+      //print(element.toString());
+
+      RecipeModel recipeModel = new RecipeModel();
+      recipeModel = RecipeModel.fromMap(element["recipe"]);
+      recipes.add(recipeModel);
+    });
+
+    print("${recipes.toString()}");
   }
 
   @override
