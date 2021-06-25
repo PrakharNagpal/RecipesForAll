@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +18,9 @@ class _RecipeViewState extends State<RecipeView> {
       child: Column(
         children: <Widget>[
           Container(
+            padding: EdgeInsets.symmetric(
+                vertical: Platform.isIOS ? 60 : 30, horizontal: 30),
+            color: Colors.black54,
             width: MediaQuery.of(context).size.width,
             child: Row(
               mainAxisAlignment:
