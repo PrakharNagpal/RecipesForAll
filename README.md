@@ -33,7 +33,8 @@ RecipesForAll is a easy to use Recipe app using which you can find recipes just 
 ## Web App
   <img src ='https://user-images.githubusercontent.com/53858906/125733970-850cb929-2a7a-4372-908e-60de11089c37.png' height=350 width=600 />
 ## ❤️ Project Developed by:technologist: ✨✨
-
+<table>
+  <tr>
     <td align="center">
             <a href="https://github.com/PrakharNagpal">
               <img src="https://avatars.githubusercontent.com/u/53858906?v=4" width="100px" alt=""/><br />
@@ -43,6 +44,8 @@ RecipesForAll is a easy to use Recipe app using which you can find recipes just 
                 👑 👀 💬 💻
             </a>
           </td>
+  </tr>
+</table>
 
 
 
