@@ -23,7 +23,15 @@ RecipesForAll is a easy to use Recipe app using which you can find recipes just 
 - Add a security feature to remove fake users
 - Add the wishlist feature
 
-
+## Screenshots
+ #MOBILE APP
+  <table>
+  <tr>
+  <img src ='https://user-images.githubusercontent.com/53858906/125731457-e80f1bcd-94d8-4824-95e9-58db82b87784.png' height=400 width=200 />
+ <img src ='https://user-images.githubusercontent.com/53858906/125732542-c8325faa-be5b-410d-9d81-abe1ac9aceeb.png' height=400 width=200 />
+  <img src ='https://user-images.githubusercontent.com/53858906/125732827-431fdde7-6c39-469a-a8ba-dffcf72d9e7f.png' height=400 width=200 />
+</tr>
+</table>
 ## ❤️ Project Developed by:technologist: ✨✨
 <table>
   <tr>
