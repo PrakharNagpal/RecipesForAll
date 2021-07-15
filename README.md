@@ -1,16 +1,37 @@
-# recipes
+<h1 style="text-align:center; font-size:3rem">Wittrade<h1>
 
-A new Flutter project.
+## About the Project :thought_balloon:
 
-## Getting Started
+RecipesForAll is a easy to use Recipe app using which you can find recipes just by entering any one incredient.
 
-This project is a starting point for a Flutter application.
+## Tech-stack 🖥
+### `Front-end`
+- Flutter
 
-A few resources to get you started if this is your first Flutter project:
+### `Back-end`
+- API -EDAMAM
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Future Scope of this Project 💥
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Enhance UI
+- Add Indian recipes
+- Add a security feature to remove fake users
+- Add the wishlist feature
+
+
+## ❤️ Project Developed by:technologist: ✨✨
+<table>
+  <tr>
+    <td align="center">
+            <a href="https://github.com/PrakharNagpal">
+              <img src="https://avatars.githubusercontent.com/u/53858906?v=4" width="100px" alt=""/><br />
+              <sub><b>Prakhar Nagpal</b></sub>
+            </a><br/>
+            <a href="https://github.com/PrakharNagpal">   
+                👑 👀 💬 💻
+            </a>
+          </td>
+    
+  </tr>
+</table>
+
