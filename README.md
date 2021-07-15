@@ -1,4 +1,4 @@
-<h1 style="text-align:center; font-size:3rem">Wittrade<h1>
+<h1 style="text-align:center; font-size:3rem">RecipesForAll<h1>
 
 ## About the Project :thought_balloon:
 
