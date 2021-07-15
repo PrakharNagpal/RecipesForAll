@@ -50,14 +50,14 @@ class _RecipeViewState extends State<RecipeView> {
                   kIsWeb ? MainAxisAlignment.start : MainAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  "AppGuy",
+                  "Recipes",
                   style: TextStyle(
                       fontSize: 18,
                       color: Colors.white,
                       fontFamily: 'Overpass'),
                 ),
                 Text(
-                  "Recipes",
+                  "ForAll",
                   style: TextStyle(
                       fontSize: 18, color: Colors.blue, fontFamily: 'Overpass'),
                 )

@@ -33,11 +33,12 @@ class _HomeState extends State<Home> {
           Container(
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
-            decoration: BoxDecoration(
-                gradient: LinearGradient(
-                    colors: [const Color(0xff213A50), const Color(0xff071930)],
-                    begin: FractionalOffset.topRight,
-                    end: FractionalOffset.bottomLeft)),
+            decoration: BoxDecoration(color: Color(0xFF000000)
+                // gradient: LinearGradient(
+                //     colors: [const Color(0xFF000000), const Color(0xB3FFFFFF)],
+                //     begin: FractionalOffset.topRight,
+                //     end: FractionalOffset.bottomLeft)
+                ),
           ),
           SingleChildScrollView(
             child: Container(
@@ -57,14 +58,14 @@ class _HomeState extends State<Home> {
                         : MainAxisAlignment.center,
                     children: <Widget>[
                       Text(
-                        "AppGuy",
+                        "Recipes",
                         style: TextStyle(
                             fontSize: 18,
                             color: Colors.white,
                             fontFamily: 'Overpass'),
                       ),
                       Text(
-                        "Recipes",
+                        "ForAll",
                         style: TextStyle(
                             fontSize: 18,
                             color: Colors.blue,
@@ -79,7 +80,7 @@ class _HomeState extends State<Home> {
                     "What will you cook today?",
                     style: TextStyle(
                         fontSize: 20,
-                        color: Colors.white,
+                        color: Colors.blue,
                         fontWeight: FontWeight.w400,
                         fontFamily: 'Overpass'),
                   ),
@@ -87,7 +88,7 @@ class _HomeState extends State<Home> {
                     "Just Enter Ingredients you have and we will show the best recipe for you",
                     style: TextStyle(
                         fontSize: 15,
-                        color: Colors.white,
+                        color: Colors.red,
                         fontWeight: FontWeight.w300,
                         fontFamily: 'OverpassRegular'),
                   ),
@@ -102,7 +103,7 @@ class _HomeState extends State<Home> {
                             controller: textEditingController,
                             style: TextStyle(
                                 fontSize: 16,
-                                color: Colors.white,
+                                color: Colors.yellow,
                                 fontFamily: 'Overpass'),
                             decoration: InputDecoration(
                               hintText: "Enter Ingridients",
@@ -181,7 +182,7 @@ class _HomeState extends State<Home> {
                   Container(
                     child: GridView(
                         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-                            mainAxisSpacing: 10.0, maxCrossAxisExtent: 200.0),
+                            mainAxisSpacing: 50.0, maxCrossAxisExtent: 200.0),
                         shrinkWrap: true,
                         scrollDirection: Axis.vertical,
                         physics: ClampingScrollPhysics(),
