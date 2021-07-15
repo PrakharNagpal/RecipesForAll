@@ -39,5 +39,5 @@ RecipesForAll is a easy to use Recipe app using which you can find recipes just 
     
   </tr>
 </table>
-<img src ='![Screenshot_1626323959](https://user-images.githubusercontent.com/53858906/125731457-e80f1bcd-94d8-4824-95e9-58db82b87784.png)' height=250 width=200 />
+<img src ='(https://user-images.githubusercontent.com/53858906/125731457-e80f1bcd-94d8-4824-95e9-58db82b87784.png)' height=250 width=200 />
 
