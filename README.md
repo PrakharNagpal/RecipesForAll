@@ -10,7 +10,12 @@ RecipesForAll is a easy to use Recipe app using which you can find recipes just 
 
 ### `Back-end`
 - API -EDAMAM
-
+  
+# Instalation 
+ ```
+ git clone https://github.com/PrakharNagpal/RecipesForAll
+ cd RecipesForAll
+ ```
 ## Future Scope of this Project 💥
 
 - Enhance UI
