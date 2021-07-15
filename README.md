@@ -24,7 +24,7 @@ RecipesForAll is a easy to use Recipe app using which you can find recipes just 
 - Add the wishlist feature
 
 ## Screenshots
- #MOBILE APP
+ # MOBILE APP
   <table>
   <tr>
   <img src ='https://user-images.githubusercontent.com/53858906/125731457-e80f1bcd-94d8-4824-95e9-58db82b87784.png' height=400 width=200 />
