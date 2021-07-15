@@ -15,6 +15,7 @@ RecipesForAll is a easy to use Recipe app using which you can find recipes just 
  ```
  git clone https://github.com/PrakharNagpal/RecipesForAll
  cd RecipesForAll
+ flutter run
  ```
 ## Future Scope of this Project 💥
 
